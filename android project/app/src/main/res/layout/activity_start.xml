@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DDBA51"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_people"
+        android:layout_width="205dp"
+        android:layout_height="77dp"
+        android:text="참가 인원"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.304" />
+
+    <Button
+        android:id="@+id/btn_plus"
+        android:layout_width="89dp"
+        android:layout_height="83dp"
+        android:backgroundTint="#91D146"
+        android:text="+"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.847"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.566" />
+
+    <TextView
+        android:id="@+id/tv_pnum"
+        android:layout_width="49dp"
+        android:layout_height="82dp"
+        android:text="4"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.567" />
+
+    <Button
+        android:id="@+id/btn_minus"
+        android:layout_width="87dp"
+        android:layout_height="86dp"
+        android:backgroundTint="#91D146"
+        android:text="-"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.568" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="152dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="#91D146"
+        android:text="시작"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.901" />
+
+    <Button
+        android:id="@+id/btn_blind"
+        android:layout_width="190dp"
+        android:layout_height="68dp"
+        android:backgroundTint="#03A9F4"
+        android:text="Blind모드 OFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.743" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
